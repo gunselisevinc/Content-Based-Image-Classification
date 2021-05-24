@@ -21,18 +21,18 @@ Classification is done using KKN classifier and Euclidean distance measure. Mult
 
 ## Programming
 This project requires implementing the aforementioned CBIC system using histograms of grayscale and color intensity using different spatial levels, using euclidean distance and different values of K.
-### Training
+### Training:
 System is trained by the images which are in Train folder.
-### Validating
+### Validating:
 System validation is for calculating the accuracy of the program and images in the Validate folder are used.
-### Testing
+### Testing:
 The images in Test folder are for testing.
 
 ## Database
 Database contains 3 classes (cloudy, shine and sunrise) and consists of 30 images. A query is simply the name of an image whose content will be used for classification. For these queries, the ground truth results (class labels) are the names of the images.
 
 ## Files
-GrayScaleCode.py --> Grayscale Training and Validation
-RgbHistogramCode.py --> RGB Training and Validation
-TestImagesTestCode.py --> Testing the best case in all validations
+GrayScaleCode.py : Grayscale Training and Validation
+RgbHistogramCode.py : RGB Training and Validation
+TestImagesTestCode.py : Testing the best case in all validations
 
