@@ -32,7 +32,7 @@ The images in Test folder are for testing.
 Database contains 3 classes (cloudy, shine and sunrise) and consists of 30 images. A query is simply the name of an image whose content will be used for classification. For these queries, the ground truth results (class labels) are the names of the images.
 
 ## Files
-GrayScaleCode.py : Grayscale Training and Validation
-RgbHistogramCode.py : RGB Training and Validation
+GrayScaleCode.py : Grayscale Training and Validation <br />
+RgbHistogramCode.py : RGB Training and Validation <br />
 TestImagesTestCode.py : Testing the best case in all validations
 
